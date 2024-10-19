@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeesLoaderPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d24112c7c0b65945a4211c65daa81c57ee38134b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeesLoaderPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeesLoaderPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

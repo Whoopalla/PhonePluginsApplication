@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t0d7/Yll3WnbrQAEY4eAY18haOaAo0X/Wt4B5yMYpyyYXZs/NAa2VjPOVg8Rngo49ZPJ+oE5t/bbgz9T3uu3pg==",
+  "dgSpecHash": "uEjDjYdSVHanTYQFNLnbE8I6+bsgIfAHMKT/Zs4T+XiW1Q0m9c4MjBNOqxwkzql+v7Nc17wi7BIZeC7ZsQHCQA==",
   "success": true,
-  "projectFilePath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+  "projectFilePath": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
   "expectedPackageFiles": [
     "/home/whoopalla/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/whoopalla/.nuget/packages/nlog/5.3.4/nlog.5.3.4.nupkg.sha512"

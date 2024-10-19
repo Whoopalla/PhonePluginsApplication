@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj": {}
+    "/home/whoopalla/src/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj": {}
   },
   "projects": {
-    "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj": {
+    "/home/whoopalla/src/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
+        "projectUniqueName": "/home/whoopalla/src/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
         "projectName": "EmployeesLoaderPlugin",
-        "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
+        "projectPath": "/home/whoopalla/src/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
         "packagesPath": "/home/whoopalla/.nuget/packages/",
-        "outputPath": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/obj/",
+        "outputPath": "/home/whoopalla/src/PhonePluginsApplication/EmployeesLoaderPlugin/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/whoopalla/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj": {
-                "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj"
+              "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj": {
+                "projectPath": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj": {
+    "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+        "projectUniqueName": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
         "projectName": "PhoneApp",
-        "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+        "projectPath": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
         "packagesPath": "/home/whoopalla/.nuget/packages/",
-        "outputPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/obj/",
+        "outputPath": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/whoopalla/.nuget/NuGet/NuGet.Config"

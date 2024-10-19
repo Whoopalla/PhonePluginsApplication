@@ -98,11 +98,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+      "projectUniqueName": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
       "projectName": "PhoneApp",
-      "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+      "projectPath": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
       "packagesPath": "/home/whoopalla/.nuget/packages/",
-      "outputPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/obj/",
+      "outputPath": "/home/whoopalla/src/PhonePluginsApplication/PhoneApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/whoopalla/.nuget/NuGet/NuGet.Config"

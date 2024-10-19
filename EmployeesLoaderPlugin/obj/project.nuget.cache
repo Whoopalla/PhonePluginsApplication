@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NJVMWovnka3eFpeByL2tzo8cWfU5+ngb2mZVdC7ljs0Jd4vzBVo/hxhmy2Aey9YjtRToDdWgRN+6z4HGhK2oyQ==",
+  "dgSpecHash": "JYtKkk18FLCHnYMi3yKHry5b2PaTa0zEbFxonfSArv0Gq+w6U2YNqZLpF8Fcy2j557H7UX6q+2LKGXVBaVPlHg==",
   "success": true,
-  "projectFilePath": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
+  "projectFilePath": "/home/whoopalla/src/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
   "expectedPackageFiles": [
     "/home/whoopalla/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/whoopalla/.nuget/packages/nlog/5.3.4/nlog.5.3.4.nupkg.sha512"

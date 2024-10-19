@@ -15,11 +15,8 @@ case "add":
             Console.WriteLine($"{name} added to employees");
             break;
 ```
-4. The code for deleting things deletes them from local copy of the resources:
+4. The code for deleting things checks for index greater than 0 but should be >=
 
-```c#
-var employeesList = args.Cast<EmployeesDTO>().ToList();
-```
 ```c#
 case "del":
             Console.Write("Index of employee to delete: ");

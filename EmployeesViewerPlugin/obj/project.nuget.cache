@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oIwPd1Pl4gPGkMPiQWUXy0NGlcxcXwoWYiYQG76tyrIhB305euEYQF++YXBLzwzn9Zt14SSi1DmHe1z8aTFUsw==",
+  "dgSpecHash": "+kAfj2KjPSXEGr64pXP3T+f/3yT2lLiSr+/nBJ0tP9rDvVeeSGegLCtJ4rWhu6r8cTCAsc2yRp/xuvPo30zTJQ==",
   "success": true,
-  "projectFilePath": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesViewerPlugin/EmployeesViewerPlugin.csproj",
+  "projectFilePath": "/home/whoopalla/src/PhonePluginsApplication/EmployeesViewerPlugin/EmployeesViewerPlugin.csproj",
   "expectedPackageFiles": [
     "/home/whoopalla/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/whoopalla/.nuget/packages/nlog/5.3.4/nlog.5.3.4.nupkg.sha512"
