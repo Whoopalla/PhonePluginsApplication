@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj": {}
+  },
+  "projects": {
+    "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
+        "projectName": "EmployeesLoaderPlugin",
+        "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/EmployeesLoaderPlugin.csproj",
+        "packagesPath": "/home/whoopalla/.nuget/packages/",
+        "outputPath": "/home/whoopalla/Programming/PhonePluginsApplication/EmployeesLoaderPlugin/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/whoopalla/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj": {
+                "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+        "projectName": "PhoneApp",
+        "projectPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/PhoneApp.csproj",
+        "packagesPath": "/home/whoopalla/.nuget/packages/",
+        "outputPath": "/home/whoopalla/Programming/PhonePluginsApplication/PhoneApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/whoopalla/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

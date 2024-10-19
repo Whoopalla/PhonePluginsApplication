@@ -8,64 +8,69 @@ using PhoneApp.Domain.Attributes;
 using PhoneApp.Domain.DTO;
 using PhoneApp.Domain.Interfaces;
 
-namespace EmployeesLoaderPlugin
-{
+namespace EmployeesLoaderPlugin {
 
-  [Author(Name = "Ivan Petrov")]
-  public class Plugin : IPluggable
-  {
-    private static readonly NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
-    public IEnumerable<DataTransferObject> Run(IEnumerable<DataTransferObject> args)
-    {
-      logger.Info("Starting Viewer");
-      logger.Info("Type q or quit to exit");
-      logger.Info("Available commands: list, add, del");
+    [Author(Name = "Ivan Petrov")]
+    public class Plugin : IPluggable {
+        private static readonly NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+        public IEnumerable<DataTransferObject> Run(IEnumerable<DataTransferObject> args) {
+            logger.Info("Starting Viewer");
+            logger.Info("Type q or quit to exit");
+            logger.Info("Available commands: ls, add, rm, q");
 
-      var employeesList = args.Cast<EmployeesDTO>().ToList();
+            var employeesList = args.Cast<EmployeesDTO>().ToList();
 
-      string command = "";
+            string command = "";
 
-      while(!command.ToLower().Contains("quit"))
-      {
-        Console.Write("> ");
-        command = Console.ReadLine();
+            while (!command.ToLower().Contains("quit")) {
+                Console.Write("> ");
+                command = Console.ReadLine();
 
-        switch(command)
-        {
-          case "list":
-            int index = 0;
-            foreach(var employee in employeesList)
-            {
-              Console.WriteLine($"{index} Name: {employee.Name} | Phone: {employee.Phone}");
-              ++index;
+                switch (command) {
+                    case "list":
+                        int index = 0;
+                        foreach (var employee in employeesList) {
+                            Console.WriteLine($"{index} Name: {employee.Name} | Phone: {employee.Phone}");
+                            ++index;
+                        }
+                        break;
+                    case "add":
+                        Console.Write("Name: ");
+                        string name = Console.ReadLine();
+                        if (String.IsNullOrEmpty(name)) {
+                            Console.WriteLine("Provide correct name");
+                            break;
+                        }
+                        Console.Write("Phone: ");
+                        string phone = Console.ReadLine();
+                        if (String.IsNullOrEmpty(phone)) {
+                            Console.WriteLine("Phone must be provided");
+                            break;
+                        }
+                        var newEmp = new EmployeesDTO();
+                        newEmp.Name = name;
+                        newEmp.AddPhone(phone == null ? String.Empty : phone);
+                        employeesList.Add(newEmp);
+                        Console.WriteLine($"{name} added to employees");
+                        break;
+                    case "del":
+                        Console.Write("Index of employee to delete: ");
+                        int indexToDelete;
+                        if (!Int32.TryParse(Console.ReadLine(), out indexToDelete)) {
+                            logger.Error("Not an index or not an int value!");
+                        }
+                        else {
+                            if (indexToDelete > 0 && indexToDelete < employeesList.Count()) {
+                                employeesList.RemoveAt(indexToDelete);
+                            }
+                        }
+                        break;
+                }
+
+                Console.WriteLine("");
             }
-            break;
-          case "add":
-            Console.Write("Name: ");
-            string name = Console.ReadLine();
-            Console.Write("Phone: ");
-            string phone = Console.ReadLine();
-            Console.WriteLine($"{name} added to employees");
-            break;
-          case "del":
-            Console.Write("Index of employee to delete: ");
-            int indexToDelete;
-            if(!Int32.TryParse(Console.ReadLine(), out indexToDelete))
-            {
-              logger.Error("Not an index or not an int value!");
-            } else {
-              if(indexToDelete > 0 && indexToDelete < employeesList.Count())
-              {
-                employeesList.RemoveAt(indexToDelete);
-              }
-            }
-            break;
+
+            return employeesList.Cast<DataTransferObject>();
         }
-
-        Console.WriteLine("");
-      }
-
-      return employeesList.Cast<DataTransferObject>();
     }
-  }
 }
